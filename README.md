@@ -11,8 +11,9 @@ En el template agregar un <span> o <div> con el ID del dato que se quiera mostra
 
 Ejemplo:
 
+```php
 <p>UF: <span id="uf"></span></p>
-
+```
 
 # Datos disponibles
 
