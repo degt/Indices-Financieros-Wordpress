@@ -7,7 +7,7 @@ Plugin para obtener indices financieros Chilenos. Dólar, UF, UTM, ipsa, ipc, et
 
 # ¿Como implementarlo?
 
-A través del 'Shortcode' 
+A través del Shortcode 'indices'
 
 Ejemplo:
 
@@ -26,6 +26,6 @@ El template debe tener wp_head();
 
 # Log
 
-2.0 Se agregan más datos
+*2.0 Se agregan más datos
 	Se cambia la fuente
-1.0 Lee los datos de Terra.cl
+*1.0 Lee los datos de Terra.cl
