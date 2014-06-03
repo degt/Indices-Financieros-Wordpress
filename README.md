@@ -7,24 +7,25 @@ Plugin para obtener indices financieros Chilenos. Dólar, UF, UTM, ipsa, ipc, et
 
 # ¿Como implementarlo?
 
-En el template agregar un <span> o <div> con el ID del dato que se quiera mostrar.
+A través del 'Shortcode' 
 
 Ejemplo:
 
 ```php
-<p>UF: <span id="uf"></span></p>
+<?php echo do_shortcode( '[indices]' ); ?>
 ```
 
 # Datos disponibles
 
-* Dolar
-* UF
-* UTM
-* Ipsa
-* Igpa
-* Ipc
-* Euro
+"bovespa","cobre","dolar-obs","dolar-us","euro","ftse","gas-natural","ibex","imacec","ipc","ipsa","ivp","nikkei","oro","peso-arg","petr-brent","petr-wti","plata","real-bras","uf-hoy","utm","yen-jap"
 
 # Importante
 
 El template debe tener wp_head(); 
+
+
+# Log
+
+2.0 Se agregan más datos
+	Se cambia la fuente
+1.0 Lee los datos de Terra.cl
