@@ -26,6 +26,5 @@ El template debe tener wp_head();
 
 # Log
 
-*2.0 Se agregan más datos
-	Se cambia la fuente
-*1.0 Lee los datos de Terra.cl
+* 2.0 Se agregan más datos - Se cambia la fuente
+* 1.0 Lee los datos de Terra.cl
